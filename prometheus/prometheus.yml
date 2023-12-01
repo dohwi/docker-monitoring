@@ -1,0 +1,4 @@
+scrape_configs:
+  - job_name: "HomeServer"
+    static_configs:
+      - targets: ["node-exporter:9100", "cadvisor:8080"]
